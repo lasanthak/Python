@@ -163,7 +163,7 @@ def extract_file_names(file, extension, site_domain=None):
             f.close()
             raise
 
-    print("Fount " + str(len(results)) + " links.")
+    print("Found " + str(len(results)) + " links.")
     return results
 
 
